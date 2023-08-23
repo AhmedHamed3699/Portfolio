@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(234, 230, 255);
+}
+
+.intro-section {
+  text-align: center;
+  font: 1.2em "Fira Sans", sans-serif;
+  margin: 2rem;
+  margin-top: 5rem;
+}
+.intro-section .header {
+  color: rgb(93, 92, 220);
+}
+.intro-section .subheader {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 0.8rem;
+}
+.intro-section button {
+  font-size: 0.8rem;
+  padding-inline: 1.2rem;
+  padding-block: 0.8rem;
+  margin: 0.5rem;
+  border: 1px solid #5d5cdc;
+  border-radius: 0.4rem;
+}
+.intro-section button:hover {
+  background-color: #5d5cdc;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  margin-right: 10%;
+  margin-left: 8%;
+  font: 1.2em "Fira Sans", sans-serif;
+}
+.container .card .card-img {
+  padding: 1rem;
+  border: 0.8rem solid #ffefe3;
+  border-radius: 1rem;
+  background-image: url("../assets/Paint_for_kids.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 12rem;
+  width: 20rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.container .card .card-img:hover {
+  border-color: #e4ccba;
+  filter: blur(1px);
+  transform: scale(0.95);
+}
+.container .card .card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.container .card .card-subtitle {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}/*# sourceMappingURL=portofolio_style.css.map */
