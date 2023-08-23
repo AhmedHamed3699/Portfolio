@@ -1,0 +1,69 @@
+$font: 1.2em "Fira Sans", sans-serif;
+$card-bg: rgb(175, 182, 255);
+$highlight: rgb(93, 92, 220);
+
+body {
+    background-color: rgb(215, 208, 255);
+}
+
+.intro {
+    text-align: center;
+    font: $font;
+    margin: 2rem;
+    margin-top: 5rem;
+    .header {
+        color: $highlight;
+    }
+    .big-text {
+        font-size: 2rem;
+        font-weight: bolder;
+        padding: 0.8rem;
+    }
+    .small-text {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 3rem;
+    margin-inline: 6rem;
+    text-align: center;
+    font: $font;
+    .card {
+        background-color: $card-bg;
+        padding: 1rem;
+        border-radius: 1rem;
+        .card-icon {
+            margin: 2rem;
+            margin-bottom: 3rem;
+            img {
+                width: 20%;
+            }
+        }
+        .card-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin: 1rem;
+        }
+        .card-text {
+            font-size: 1rem;
+            margin: 2rem;
+        }
+        &:hover {
+            background-color: $highlight;
+            color: white;
+            .card-icon {
+                img {
+                    filter: invert(100%);
+                }
+            }
+        }
+    }
+}

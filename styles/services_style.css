@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(215, 208, 255);
+}
+
+.intro {
+  text-align: center;
+  font: 1.2em "Fira Sans", sans-serif;
+  margin: 2rem;
+  margin-top: 5rem;
+}
+.intro .header {
+  color: rgb(93, 92, 220);
+}
+.intro .big-text {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 0.8rem;
+}
+.intro .small-text {
+  font-size: 0.9rem;
+  padding: 0.8rem;
+  width: 50%;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 3rem;
+  margin-inline: 6rem;
+  text-align: center;
+  font: 1.2em "Fira Sans", sans-serif;
+}
+.container .card {
+  background-color: rgb(175, 182, 255);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.container .card .card-icon {
+  margin: 2rem;
+  margin-bottom: 3rem;
+}
+.container .card .card-icon img {
+  width: 20%;
+}
+.container .card .card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+.container .card .card-text {
+  font-size: 1rem;
+  margin: 2rem;
+}
+.container .card:hover {
+  background-color: rgb(93, 92, 220);
+  color: white;
+}
+.container .card:hover .card-icon img {
+  filter: invert(100%);
+}/*# sourceMappingURL=services_style.css.map */
