@@ -1,12 +1,10 @@
-body {
+.Testimonals {
   background-color: #edf1f2;
 }
-
-.checked {
+.Testimonals .checked {
   color: orange;
 }
-
-.header {
+.Testimonals .header {
   color: rgb(93, 92, 220);
   margin: 1rem;
   margin-top: 3rem;
@@ -14,21 +12,19 @@ body {
   font: 1.2em "Fira Sans", sans-serif;
   font-size: 1rem;
 }
-
-.subheader {
+.Testimonals .subheader {
   margin: 1rem;
   text-align: center;
   font: 1.2em "Fira Sans", sans-serif;
   font-size: 2rem;
   font-weight: bolder;
 }
-
-.testimonals {
+.Testimonals .testimonals {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-inline: 4rem;
 }
-.testimonals .card {
+.Testimonals .testimonals .card {
   background-color: #fff;
   margin: 1rem;
   padding: 2rem;
@@ -36,19 +32,19 @@ body {
   font: 1.2em "Fira Sans", sans-serif;
   font-size: 1.5rem;
 }
-.testimonals .card .rating {
+.Testimonals .testimonals .card .rating {
   margin: 1rem;
   font-size: 1rem;
 }
-.testimonals .card .testimony {
+.Testimonals .testimonals .card .testimony {
   font-size: 1rem;
   margin-block: 1rem;
 }
-.testimonals .card .person {
+.Testimonals .testimonals .card .person {
   display: flex;
   justify-content: flex-start;
 }
-.testimonals .card .person .person-icon {
+.Testimonals .testimonals .card .person .person-icon {
   display: block;
   width: 2.5rem;
   height: 2.5rem;
@@ -56,14 +52,14 @@ body {
   margin-right: 1rem;
   overflow: hidden;
 }
-.testimonals .card .person .person-icon img {
+.Testimonals .testimonals .card .person .person-icon img {
   display: inline-block;
   width: 100%;
 }
-.testimonals .card .person .person-info {
+.Testimonals .testimonals .card .person .person-info {
   font-size: 1rem;
 }
-.testimonals .card .person .person-info .person-title {
+.Testimonals .testimonals .card .person .person-info .person-title {
   margin-top: 5px;
   opacity: 0.8;
 }/*# sourceMappingURL=testimonals_style.css.map */

@@ -1,8 +1,7 @@
-body {
+.Home {
   background-color: rgb(93, 92, 220);
 }
-
-nav {
+.Home nav {
   background-color: rgb(93, 92, 220);
   color: #fff;
   padding: 1rem;
@@ -13,31 +12,30 @@ nav {
   position: sticky;
   top: 0px;
 }
-nav span {
+.Home nav span {
   font: italic small-caps 0.8rem cursive;
   font-size: larger;
   margin: 0px 5rem;
 }
-nav a {
+.Home nav a {
   color: #fff;
   font: italic small-caps 0.8rem cursive;
   text-decoration: none;
 }
-nav a:hover {
+.Home nav a:hover {
   color: rgb(217, 155, 82);
 }
-nav ul {
+.Home nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-nav ul li {
+.Home nav ul li {
   margin: 0px 2rem;
 }
-
-button {
+.Home button {
   background-color: rgb(254, 177, 47);
   color: #fff;
   border: none;
@@ -47,33 +45,32 @@ button {
   font: italic small-caps 0.8rem cursive;
   cursor: pointer;
 }
-button:hover {
+.Home button:hover {
   transform: scale(0.95);
 }
-
-.content {
+.Home .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.content .big-text {
+.Home .content .big-text {
   font-size: 3rem;
   font-weight: bold;
   margin-left: 18%;
   margin-top: 25%;
 }
-.content .description-text {
+.Home .content .description-text {
   font-size: 1.2rem;
   margin-left: 18%;
   margin-top: 1rem;
   margin-bottom: 0.6rem;
 }
-.content button {
+.Home .content button {
   margin-left: 20%;
   margin-top: 0.6rem;
   margin-bottom: 1rem;
   width: 25%;
 }
-.content .image {
+.Home .content .image {
   margin-top: 9%;
   margin-right: 10%;
   width: 80%;
