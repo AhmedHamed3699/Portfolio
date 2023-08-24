@@ -1,0 +1,74 @@
+$bg: #edf1f2;
+$font: 1.2em "Fira Sans", sans-serif;
+$highlight: rgb(93, 92, 220);
+$card-bg: #fff;
+
+body {
+    background-color: $bg;
+}
+
+.checked {
+    color: orange;
+}
+
+.header {
+    color: $highlight;
+    margin: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    font: $font;
+    font-size: 1rem;
+}
+
+.subheader {
+    margin: 1rem;
+    text-align: center;
+    font: $font;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.testimonals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-inline: 4rem;
+    .card {
+        background-color: $card-bg;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font: $font;
+    font-size: 1.5rem;
+    .rating {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    .testimony {
+        font-size: 1rem;
+        margin-block: 1rem;
+    }
+    .person {
+        display: flex;
+        justify-content: flex-start;
+        .person-icon {
+            display:block;
+            width:  2.5rem;
+            height: 2.5rem;
+            border-radius: 2rem;
+            margin-right: 1rem;
+            overflow:hidden;
+            img {
+                display:inline-block;
+                width: 100%;        
+            }
+        }
+        .person-info {
+            font-size: 1rem;
+            .person-title {
+                margin-top: 5px;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+}
