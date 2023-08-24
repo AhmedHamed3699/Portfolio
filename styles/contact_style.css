@@ -1,0 +1,64 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.contact .title {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 5rem 0px 1rem 6rem;
+}
+.contact .description {
+  font-size: 1.2rem;
+  margin: 0px 0px 1.5rem 6rem;
+  width: 40%;
+}
+.contact button {
+  margin: 0px 0px 1.5rem 6rem;
+  background-color: rgb(254, 177, 47);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 8rem;
+  font: italic small-caps 0.8rem cursive;
+  cursor: pointer;
+}
+.contact button:hover {
+  transform: scale(0.95);
+}
+
+footer {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font: italic small-caps 0.8rem cursive;
+}
+footer hr {
+  width: 90%;
+}
+footer .logo {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 0px 5rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 5rem;
+}
+footer ul li {
+  margin: 0px 2rem;
+}
+footer .copyright {
+  margin: auto;
+  margin-top: 1.5rem;
+  opacity: 0.7;
+}/*# sourceMappingURL=contact_style.css.map */
