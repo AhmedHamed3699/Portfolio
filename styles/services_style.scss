@@ -3,8 +3,9 @@ $card-bg: rgb(175, 182, 255);
 $highlight: rgb(93, 92, 220);
 
 .Service {
-    padding: 4rem;
-    margin-top: 3rem;
+    padding: 5rem;
+    padding-bottom: 12rem;
+    margin-top: 4rem;
     border-radius: 1rem;
     .header {
         text-align: center;
@@ -12,6 +13,7 @@ $highlight: rgb(93, 92, 220);
         font-weight: bold;
         font-size: 2rem;
         margin-top: 2rem;
+        margin-bottom: 4rem;
         color: $highlight;
     }
 

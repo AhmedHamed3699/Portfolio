@@ -4,7 +4,8 @@ $highlight: rgb(93, 92, 220);
 $card-bg: #fff;
 
 .Testimonals {
-    padding: 4rem;
+    padding: 5rem;
+    padding-bottom: 12rem;
     margin-top: 2rem;
     border-radius: 1rem;
     .checked {
@@ -13,8 +14,7 @@ $card-bg: #fff;
 
     .header {
         color: $highlight;
-        margin: 1rem;
-        margin-top: 1rem;
+        margin-block: 3rem;
         text-align: center;
         font: $font;
         font-size: 2rem;

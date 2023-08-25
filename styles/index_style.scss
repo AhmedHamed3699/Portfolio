@@ -15,17 +15,24 @@ body {
     background-color: $bg;
 }
 
+section {
+    transform: translateY(1rem);
+    transition: transform 1s ease-in-out 0s;
+    scroll-behavior: smooth;
+}
+
 nav {
     background-color: transparent;
     color: $nav-text-color;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 1;
+    width: 100%;
     backdrop-filter: blur(3px);
     span {
         font: $font;
@@ -36,16 +43,22 @@ nav {
         color: $nav-text-color;
         font: $font;
         text-decoration: none;
+        transition-property: translate;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
         &:hover {
             color: $nav-text-color-hover;
         }
     }
     ul {
         list-style-type: none;
+        overflow: hidden;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        margin-right: 5rem;
         li {
             margin: 0px 2rem;
         }

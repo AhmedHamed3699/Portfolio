@@ -15,29 +15,9 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
     </head>
-    <style>
-        body::-webkit-scrollbar {
-            width: 0.6em;
-        }
-        body::-webkit-scrollbar-thumb {
-            background-color: darkgrey;
-            border-radius: 1rem;
-        }
-    </style>
     <body>
-        <!-- NAVBAR -->
-        <nav>
-            <span>Logo</span>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-        </nav>
-
         <!-- HOME -->
-        <section class="Home">
+        <section id="home-sec" class="Home">
             <div class="content">
                 <div class="right-content">
                     <div class="big-text">
@@ -48,7 +28,9 @@
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
                     </div>
-                    <button>Download CV</button>
+                    <a href="../assets/CV.pdf" download="AhmedHamed_CV.pdf">
+                        <button id="CV_button">Download CV</button>
+                    </a>
                 </div>
                 <div class="image">
                     <img
@@ -60,7 +42,7 @@
         </section>
 
         <!-- SERVICES -->
-        <section class="Service">
+        <section id="service-sec" class="Service">
             <div class="header">Services</div>
             <div class="container">
                 <div class="card">
@@ -94,7 +76,7 @@
         </section>
 
         <!-- TESTIMONALS -->
-        <section class="Testimonals">
+        <section id="testimonals-sec" class="Testimonals">
             <div class="header">What People Say's About Me</div>
             <div class="testimonals">
                 <div class="card">
@@ -167,7 +149,7 @@
         </section>
 
         <!-- PORTFOLIO -->
-        <section class="Portfolio">
+        <section id="portfolio-sec" class="Portfolio">
             <div class="intro-section">
                 <div class="header">Portofolio</div>
                 <div>
@@ -212,7 +194,7 @@
         </section>
 
         <!-- CONTACT -->
-        <section class="Contact">
+        <section id="contact-sec" class="Contact">
             <div class="contact-card">
                 <div class="card-text">
                     <div class="title">Got A Project? Let's Talk</div>
@@ -264,5 +246,19 @@
                 </div>
             </footer>
         </section>
+
+        <!-- NAVBAR -->
+        <nav>
+            <span>Logo</span>
+            <ul>
+                <li><a href="#home-sec">Home</a></li>
+                <li><a href="#service-sec">Services</a></li>
+                <li><a href="#testimonals-sec">Testimonals</a></li>
+                <li><a href="#portfolio-sec">Portfolio</a></li>
+                <li><a href="#contact-sec">Contact</a></li>
+            </ul>
+        </nav>
+
+        <script src="../scripts/navbar.js"></script>
     </body>
 </html>

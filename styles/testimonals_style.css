@@ -1,5 +1,6 @@
 .Testimonals {
-  padding: 4rem;
+  padding: 5rem;
+  padding-bottom: 12rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
@@ -8,8 +9,7 @@
 }
 .Testimonals .header {
   color: rgb(93, 92, 220);
-  margin: 1rem;
-  margin-top: 1rem;
+  margin-block: 3rem;
   text-align: center;
   font: 1.2em "Fira Sans", sans-serif;
   font-size: 2rem;
