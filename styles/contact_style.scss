@@ -4,8 +4,7 @@ $button-bg: rgb(254, 177, 47);
 $font: italic small-caps 0.8rem cursive;
 
 .Contact {
-    background-color: $bg;
-    padding: 4rem;
+    padding: 2rem;
     margin-top: 2rem;
     border-radius: 1rem;
     .contact-card {
@@ -40,7 +39,7 @@ $font: italic small-caps 0.8rem cursive;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                justify-content: center;
+                margin-left: 2rem;
                 .icon {
                     &:hover {
                         cursor: pointer;
@@ -64,7 +63,6 @@ $font: italic small-caps 0.8rem cursive;
     }
 
     footer {
-        background-color: $bg;
         color: $text-color;
         padding: 1rem;
         display: flex;

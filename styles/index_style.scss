@@ -1,4 +1,4 @@
-$bg: rgb(93, 92, 220);
+$bg: #116466;
 $button-bg: rgb(254, 177, 47);
 $nav-text-color: #fff;
 $nav-text-color-hover: rgb(217, 155, 82);
@@ -12,7 +12,7 @@ body {
         background-color: darkgrey;
         border-radius: 1rem;
     }
-    background-image: url(../assets/background1.jpg);
+    background-color: $bg;
 }
 
 nav {
@@ -26,6 +26,7 @@ nav {
     position: sticky;
     top: 0px;
     z-index: 1;
+    backdrop-filter: blur(3px);
     span {
         font: $font;
         font-size: larger;

@@ -1,5 +1,5 @@
 body {
-  background-image: url(../assets/background1.jpg);
+  background-color: #116466;
 }
 body::-webkit-scrollbar {
   width: 0.6em;
@@ -20,6 +20,8 @@ nav {
   position: sticky;
   top: 0px;
   z-index: 1;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
 }
 nav span {
   font: italic small-caps 0.8rem cursive;

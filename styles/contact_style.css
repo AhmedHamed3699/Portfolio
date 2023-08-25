@@ -1,6 +1,5 @@
 .Contact {
-  background-color: #f4f4f4;
-  padding: 4rem;
+  padding: 2rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
@@ -38,7 +37,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  margin-left: 2rem;
 }
 .Contact .contact-card .my-contacts .B-contact .icon:hover {
   cursor: pointer;
@@ -57,7 +56,6 @@
   font-size: 1.2rem;
 }
 .Contact footer {
-  background-color: #f4f4f4;
   color: #333;
   padding: 1rem;
   display: flex;
