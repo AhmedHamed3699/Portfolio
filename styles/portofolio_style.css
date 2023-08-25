@@ -4,8 +4,8 @@
   border-radius: 1rem;
 }
 .Portfolio .intro-section {
-  font: 1.2em "Fira Sans", sans-serif;
   text-align: center;
+  font: 1.2em "Fira Sans", sans-serif;
   margin: 1rem;
 }
 .Portfolio .intro-section .header {
@@ -25,34 +25,40 @@
   background-color: #5d5cdc;
   color: white;
 }
+.Portfolio .intro-section .active-btn {
+  background-color: #5d5cdc;
+  color: white;
+}
 .Portfolio .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding-inline: 5rem !important;
   font: 1.2em "Fira Sans", sans-serif;
 }
-.Portfolio .container .card .card-img {
-  padding: 1rem;
-  border: 0.8rem solid #ffefe3;
-  border-radius: 1rem;
+.Portfolio .container .project-card {
+  margin: auto;
+}
+.Portfolio .container .project-card .card-img {
   background-image: url("../assets/Paint_for_kids.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 0.5rem;
   height: 12rem;
   width: 20rem;
   margin-bottom: 1rem;
 }
-.Portfolio .container .card .card-img:hover {
-  border-color: #e4ccba;
+.Portfolio .container .project-card .card-img:hover {
   filter: blur(1px);
   transform: scale(0.95);
 }
-.Portfolio .container .card .card-title {
+.Portfolio .container .project-card .card-title {
   font-size: 1.6rem;
   font-weight: bold;
 }
-.Portfolio .container .card .card-subtitle {
+.Portfolio .container .project-card .card-subtitle {
   font-size: 0.8rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;

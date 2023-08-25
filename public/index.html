@@ -153,39 +153,47 @@
             <div class="intro-section">
                 <div class="header">Portofolio</div>
                 <div>
-                    <button>All</button>
-                    <button>UI/UX</button>
-                    <button>Back End</button>
-                    <button>Machine Learning</button>
+                    <button id="all-btn" class="active-btn" onclick="filter('all', 'all-btn');">
+                        All
+                    </button>
+                    <button id="UI-btn" onclick="filter('UI-UX', 'UI-btn');">
+                        UI/UX
+                    </button>
+                    <button id="Back-btn" onclick="filter('back-end', 'Back-btn');">
+                        Back End
+                    </button>
+                    <button id="ML-btn" onclick="filter('ML', 'ML-btn');">
+                        Machine Learning
+                    </button>
                 </div>
             </div>
             <div class="container">
-                <div class="card">
+                <div class="project-card">
                     <div class="card-img"></div>
                     <div class="card-title">Paint For Kids</div>
                     <div class="card-subtitle">Game/OOP</div>
                 </div>
-                <div class="card">
+                <div class="project-card back-end">
                     <div class="card-img"></div>
                     <div class="card-title">Paint For Kids</div>
                     <div class="card-subtitle">Game/OOP</div>
                 </div>
-                <div class="card">
+                <div class="project-card">
                     <div class="card-img"></div>
                     <div class="card-title">Paint For Kids</div>
                     <div class="card-subtitle">Game/OOP</div>
                 </div>
-                <div class="card">
+                <div class="project-card">
                     <div class="card-img"></div>
                     <div class="card-title">Paint For Kids</div>
                     <div class="card-subtitle">Game/OOP</div>
                 </div>
-                <div class="card">
+                <div class="project-card">
                     <div class="card-img"></div>
                     <div class="card-title">Paint For Kids</div>
                     <div class="card-subtitle">Game/OOP</div>
                 </div>
-                <div class="card">
+                <div class="project-card">
                     <div class="card-img"></div>
                     <div class="card-title">Paint For Kids</div>
                     <div class="card-subtitle">Game/OOP</div>
@@ -260,5 +268,6 @@
         </nav>
 
         <script src="../scripts/navbar.js"></script>
+        <script src="../scripts/portofolio.js"></script>
     </body>
 </html>

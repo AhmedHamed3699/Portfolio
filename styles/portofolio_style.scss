@@ -9,8 +9,8 @@ $card-hover: #e4ccba;
     margin-top: 2rem;
     border-radius: 1rem;
     .intro-section {
-        font: $font;
         text-align: center;
+        font: $font;
         margin: 1rem;
         .header {
             color: $highlight;
@@ -29,27 +29,31 @@ $card-hover: #e4ccba;
                 color: white;
             }
         }
+        .active-btn {
+            background-color: $btn-bg;
+            color: white;
+        }
     }
 
     .container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        align-items: center;
+        justify-items: center;
+        padding-inline: 5rem !important;
         font: $font;
-        .card {
+        .project-card {
+            margin: auto;
             .card-img {
-                padding: 1rem;
-                border: 0.8rem solid $card-border;
-                border-radius: 1rem;
                 background-image:url('../assets/Paint_for_kids.png');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
+                border-radius: 0.5rem;
                 height: 12rem;
                 width: 20rem;
                 margin-bottom: 1rem;
                 &:hover {
-                    border-color: $card-hover;
                     filter: blur(1px);
                     transform: scale(0.95);
                 }
