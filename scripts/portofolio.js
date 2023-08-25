@@ -1,6 +1,7 @@
 
-const filter = (category, id) => {
+const filter = (category) => {
     const items = document.querySelectorAll(".project-card");
+    const id = category + "-btn";
     const cur_btn = document.getElementById(id);
     document.querySelector('.active-btn').classList.remove('active-btn');
     cur_btn.classList.add('active-btn');
