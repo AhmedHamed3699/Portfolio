@@ -3,26 +3,37 @@
     <head>
         <meta charset="UTF-8" />
         <title>index</title>
+        <link rel="shortcut icon" href="../assets/coding.png" />
+        <link href="../styles/index_style.css" rel="stylesheet" />
         <link href="../styles/home_style.css" rel="stylesheet" />
         <link href="../styles/services_style.css" rel="stylesheet" />
         <link href="../styles/testimonals_style.css" rel="stylesheet" />
         <link href="../styles/portofolio_style.css" rel="stylesheet" />
         <link href="../styles/contact_style.css" rel="stylesheet" />
     </head>
+    <style>
+        body::-webkit-scrollbar {
+            width: 0.6em;
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+            border-radius: 1rem;
+        }
+    </style>
     <body>
+        <!-- NAVBAR -->
+        <nav>
+            <span>Logo</span>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
 
         <!-- HOME -->
         <section class="Home">
-            <nav>
-                <span>Logo</span>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-                <button>Download CV</button>
-            </nav>
             <div class="content">
                 <div class="right-content">
                     <div class="big-text">
@@ -30,30 +41,23 @@
                     </div>
                     <div class="description-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
                     </div>
-                    <button>Get Started</button>
+                    <button>Download CV</button>
                 </div>
                 <div class="image">
-                    <img src="../assets/GitHub_Character.webp" alt="profile image">
+                    <img
+                        src="../assets/GitHub_Character.webp"
+                        alt="profile image"
+                    />
                 </div>
             </div>
         </section>
 
-    
         <!-- SERVICES -->
         <section class="Service">
-            <div class="intro">
-                <span class="header">Services</span>
-                <div class="big-text">
-                    Expertise Service! Let's check it out!
-                </div>
-                <div class="small-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam
-                </div>
-            </div>
+            <div class="header">Services</div>
             <div class="container">
                 <div class="card">
                     <div class="card-icon">
@@ -85,11 +89,9 @@
             </div>
         </section>
 
-
         <!-- TESTIMONALS -->
         <section class="Testimonals">
-            <div class="header">Testimonals</div>
-            <div class="subheader">What People Say's About Me</div>
+            <div class="header">What People Say's About Me</div>
             <div class="testimonals">
                 <div class="card">
                     <div class="rating">
@@ -160,14 +162,10 @@
             </div>
         </section>
 
-
         <!-- PORTFOLIO -->
         <section class="Portfolio">
             <div class="intro-section">
                 <div class="header">Portofolio</div>
-                <div class="subheader">
-                    Digital Product Showcases
-                </div>
                 <div>
                     <button>All</button>
                     <button>UI/UX</button>
@@ -178,71 +176,75 @@
             <div class="container">
                 <div class="card">
                     <div class="card-img"></div>
-                    <div class="card-title">
-                        Paint For Kids
-                    </div>
-                    <div class="card-subtitle">
-                        Game/OOP
-                    </div>
+                    <div class="card-title">Paint For Kids</div>
+                    <div class="card-subtitle">Game/OOP</div>
                 </div>
                 <div class="card">
                     <div class="card-img"></div>
-                    <div class="card-title">
-                        Paint For Kids
-                    </div>
-                    <div class="card-subtitle">
-                        Game/OOP
-                    </div>
+                    <div class="card-title">Paint For Kids</div>
+                    <div class="card-subtitle">Game/OOP</div>
                 </div>
                 <div class="card">
                     <div class="card-img"></div>
-                    <div class="card-title">
-                        Paint For Kids
-                    </div>
-                    <div class="card-subtitle">
-                        Game/OOP
-                    </div>
+                    <div class="card-title">Paint For Kids</div>
+                    <div class="card-subtitle">Game/OOP</div>
                 </div>
                 <div class="card">
                     <div class="card-img"></div>
-                    <div class="card-title">
-                        Paint For Kids
-                    </div>
-                    <div class="card-subtitle">
-                        Game/OOP
-                    </div>
+                    <div class="card-title">Paint For Kids</div>
+                    <div class="card-subtitle">Game/OOP</div>
                 </div>
                 <div class="card">
                     <div class="card-img"></div>
-                    <div class="card-title">
-                        Paint For Kids
-                    </div>
-                    <div class="card-subtitle">
-                        Game/OOP
-                    </div>
+                    <div class="card-title">Paint For Kids</div>
+                    <div class="card-subtitle">Game/OOP</div>
                 </div>
                 <div class="card">
                     <div class="card-img"></div>
-                    <div class="card-title">
-                        Paint For Kids
-                    </div>
-                    <div class="card-subtitle">
-                        Game/OOP
-                    </div>
+                    <div class="card-title">Paint For Kids</div>
+                    <div class="card-subtitle">Game/OOP</div>
                 </div>
             </div>
         </section>
 
-
         <!-- CONTACT -->
         <section class="Contact">
             <div class="contact-card">
-                <div class="title">Got A Project? Let's Talk</div>
-                <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit,
-                    Accusantium tempore hic mollitia eius est laboriosam.
+                <div class="card-text">
+                    <div class="title">Got A Project? Let's Talk</div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit,
+                        Accusantium tempore hic mollitia eius est laboriosam.
+                    </div>
                 </div>
-                <button>Contact</button>
+                <div class="my-contacts">
+                    <div class="A-contact">
+                        <div class="icon">
+                            <img src="../assets/phone.png" alt="phone" />
+                        </div>
+                        <div class="text">+20 122 696 8657</div>
+                    </div>
+                    <div class="A-contact">
+                        <div class="icon">
+                            <img src="../assets/email.png" alt="email" />
+                        </div>
+                        <div class="text">ahmedhamed3699@gmail.com</div>
+                    </div>
+                    <div class="A-contact">
+                        <div class="icon">
+                            <img src="../assets/location.png" alt="location" />
+                        </div>
+                        <div class="text">Cairo, Egypt</div>
+                    </div>
+                    <div class="B-contact">
+                        <div class="icon">
+                            <img src="../assets/github.png" alt="GitHub" />
+                        </div>
+                        <div class="icon">
+                            <img src="../assets/linkedin.png" alt="LinkedIn" />
+                        </div>
+                    </div>
+                </div>
             </div>
             <footer>
                 <div class="logo">Logo</div>
@@ -258,6 +260,5 @@
                 </div>
             </footer>
         </section>
-
     </body>
 </html>

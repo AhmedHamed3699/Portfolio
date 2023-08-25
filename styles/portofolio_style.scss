@@ -6,15 +6,15 @@ $card-hover: #e4ccba;
 
 .Portfolio {
     background-color: rgb(234, 230, 255);
+    padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
     .intro-section {
-        text-align: center;
         font: $font;
+        text-align: center;
         margin: 2rem;
-        margin-top: 5rem;
         .header {
             color: $highlight;
-        }
-        .subheader {
             font-size: 2rem;
             font-weight: bolder;
             padding: 0.8rem;
@@ -24,7 +24,6 @@ $card-hover: #e4ccba;
             padding-inline: 1.2rem;
             padding-block: 0.8rem;
             margin: 0.5rem;
-            border: 1px solid $btn-bg;
             border-radius: 0.4rem;
             &:hover {
                 background-color: $btn-bg;
@@ -36,9 +35,7 @@ $card-hover: #e4ccba;
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 0.5rem;
-        margin-right: 10%;
-        margin-left: 8%;
+        padding: 1rem;
         font: $font;
         .card {
             .card-img {
@@ -51,7 +48,6 @@ $card-hover: #e4ccba;
                 background-repeat: no-repeat;
                 height: 12rem;
                 width: 20rem;
-                margin: auto;
                 margin-bottom: 1rem;
                 &:hover {
                     border-color: $card-hover;

@@ -1,0 +1,60 @@
+body {
+  background-image: url(../assets/background1.jpg);
+}
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 1rem;
+}
+
+nav {
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+nav span {
+  font: italic small-caps 0.8rem cursive;
+  font-size: larger;
+  margin: 0px 5rem;
+}
+nav a {
+  color: #fff;
+  font: italic small-caps 0.8rem cursive;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(217, 155, 82);
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 0px 2rem;
+}
+
+button {
+  background-color: rgb(254, 177, 47);
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  margin: 0px 5rem;
+  font: italic small-caps 0.8rem cursive;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(0.95);
+}/*# sourceMappingURL=index_style.css.map */

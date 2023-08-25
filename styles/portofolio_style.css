@@ -1,16 +1,16 @@
 .Portfolio {
   background-color: rgb(234, 230, 255);
+  padding: 4rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
 .Portfolio .intro-section {
-  text-align: center;
   font: 1.2em "Fira Sans", sans-serif;
+  text-align: center;
   margin: 2rem;
-  margin-top: 5rem;
 }
 .Portfolio .intro-section .header {
   color: rgb(93, 92, 220);
-}
-.Portfolio .intro-section .subheader {
   font-size: 2rem;
   font-weight: bolder;
   padding: 0.8rem;
@@ -20,7 +20,6 @@
   padding-inline: 1.2rem;
   padding-block: 0.8rem;
   margin: 0.5rem;
-  border: 1px solid #5d5cdc;
   border-radius: 0.4rem;
 }
 .Portfolio .intro-section button:hover {
@@ -30,9 +29,7 @@
 .Portfolio .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
-  margin-right: 10%;
-  margin-left: 8%;
+  padding: 1rem;
   font: 1.2em "Fira Sans", sans-serif;
 }
 .Portfolio .container .card .card-img {
@@ -45,7 +42,6 @@
   background-repeat: no-repeat;
   height: 12rem;
   width: 20rem;
-  margin: auto;
   margin-bottom: 1rem;
 }
 .Portfolio .container .card .card-img:hover {

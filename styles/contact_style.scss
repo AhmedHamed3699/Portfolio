@@ -5,29 +5,60 @@ $font: italic small-caps 0.8rem cursive;
 
 .Contact {
     background-color: $bg;
+    padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
     .contact-card {
-        .title {
-            font-size: 2rem;
-            font-weight: bolder;
-            margin: 5rem 0px 1rem 6rem;
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .card-text {
+            padding: 3rem;
+            .title {
+                font-size: 2rem;
+                font-weight: bolder;
+                margin: 2rem 0px 1rem 4rem;
+            }
+            .description {
+                font-size: 1.2rem;
+                margin-left: 4rem;
+                width: 60%;
+            }
         }
-        .description {
-            font-size: 1.2rem;
-            margin: 0px 0px 1.5rem 6rem;
-            width: 40%;
-        }
-        button {
-            margin: 0px 0px 1.5rem 6rem;
-            background-color: $button-bg;
-            color: white;
-            border: none;
-            border-radius: 1rem;
-            padding: 1rem;
-            width: 8rem;
-            font: $font;
-            cursor: pointer;
-            &:hover {
-                transform: scale(0.95);
+        .my-contacts {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            .A-contact {
+                padding: 0.5rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .B-contact {
+                padding: 1rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .icon {
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .icon {
+                padding: 1rem;
+                width:  1.5rem;
+                height: 1.5rem;
+                img{
+                    width: 100%;
+                }
+            }
+            .text {
+                padding: 1rem;
+                font-size: 1.2rem;
             }
         }
     }

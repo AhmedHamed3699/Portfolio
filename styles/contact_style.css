@@ -1,29 +1,60 @@
 .Contact {
   background-color: #f4f4f4;
+  padding: 4rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
-.Contact .contact-card .title {
+.Contact .contact-card {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Contact .contact-card .card-text {
+  padding: 3rem;
+}
+.Contact .contact-card .card-text .title {
   font-size: 2rem;
   font-weight: bolder;
-  margin: 5rem 0px 1rem 6rem;
+  margin: 2rem 0px 1rem 4rem;
 }
-.Contact .contact-card .description {
+.Contact .contact-card .card-text .description {
   font-size: 1.2rem;
-  margin: 0px 0px 1.5rem 6rem;
-  width: 40%;
+  margin-left: 4rem;
+  width: 60%;
 }
-.Contact .contact-card button {
-  margin: 0px 0px 1.5rem 6rem;
-  background-color: rgb(254, 177, 47);
-  color: white;
-  border: none;
-  border-radius: 1rem;
+.Contact .contact-card .my-contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.Contact .contact-card .my-contacts .A-contact {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Contact .contact-card .my-contacts .B-contact {
   padding: 1rem;
-  width: 8rem;
-  font: italic small-caps 0.8rem cursive;
-  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.Contact .contact-card button:hover {
-  transform: scale(0.95);
+.Contact .contact-card .my-contacts .B-contact .icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.Contact .contact-card .my-contacts .icon {
+  padding: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.Contact .contact-card .my-contacts .icon img {
+  width: 100%;
+}
+.Contact .contact-card .my-contacts .text {
+  padding: 1rem;
+  font-size: 1.2rem;
 }
 .Contact footer {
   background-color: #f4f4f4;

@@ -1,31 +1,22 @@
 .Service {
   background-color: rgb(215, 208, 255);
+  padding: 4rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
 }
-.Service .intro {
+.Service .header {
   text-align: center;
   font: 1.2em "Fira Sans", sans-serif;
-  margin: 2rem;
-  margin-top: 5rem;
-}
-.Service .intro .header {
-  color: rgb(93, 92, 220);
-}
-.Service .intro .big-text {
+  font-weight: bold;
   font-size: 2rem;
-  font-weight: bolder;
-  padding: 0.8rem;
-}
-.Service .intro .small-text {
-  font-size: 0.9rem;
-  padding: 0.8rem;
-  width: 50%;
-  margin: auto;
+  margin-top: 2rem;
+  color: rgb(93, 92, 220);
 }
 .Service .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
-  margin: 3rem;
+  margin-top: 1rem;
   margin-inline: 6rem;
   text-align: center;
   font: 1.2em "Fira Sans", sans-serif;

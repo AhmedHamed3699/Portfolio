@@ -1,5 +1,8 @@
 .Testimonals {
   background-color: #edf1f2;
+  padding: 4rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
 .Testimonals .checked {
   color: orange;
@@ -7,17 +10,10 @@
 .Testimonals .header {
   color: rgb(93, 92, 220);
   margin: 1rem;
-  margin-top: 3rem;
-  text-align: center;
-  font: 1.2em "Fira Sans", sans-serif;
-  font-size: 1rem;
-}
-.Testimonals .subheader {
-  margin: 1rem;
+  margin-top: 1rem;
   text-align: center;
   font: 1.2em "Fira Sans", sans-serif;
   font-size: 2rem;
-  font-weight: bolder;
 }
 .Testimonals .testimonals {
   display: grid;

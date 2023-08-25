@@ -5,7 +5,9 @@ $card-bg: #fff;
 
 .Testimonals {
     background-color: $bg;
-
+    padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
     .checked {
         color: orange;
     }
@@ -13,18 +15,10 @@ $card-bg: #fff;
     .header {
         color: $highlight;
         margin: 1rem;
-        margin-top: 3rem;
-        text-align: center;
-        font: $font;
-        font-size: 1rem;
-    }
-
-    .subheader {
-        margin: 1rem;
+        margin-top: 1rem;
         text-align: center;
         font: $font;
         font-size: 2rem;
-        font-weight: bolder;
     }
 
     .testimonals {
