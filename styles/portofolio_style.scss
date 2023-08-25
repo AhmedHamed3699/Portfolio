@@ -1,6 +1,6 @@
 $font: 1.2em "Fira Sans", sans-serif;
 $highlight: rgb(93, 92, 220);
-$btn-bg: #5d5cdc;
+$btn-bg: #106466;
 $card-border: #ffefe3;
 $card-hover: #e4ccba;
 
@@ -13,7 +13,7 @@ $card-hover: #e4ccba;
         font: $font;
         margin: 1rem;
         .header {
-            color: $highlight;
+            color: #294f42;
             font-size: 2rem;
             font-weight: bolder;
             padding: 0.8rem;
@@ -41,6 +41,7 @@ $card-hover: #e4ccba;
         align-items: center;
         justify-items: center;
         padding-inline: 5rem !important;
+        margin-top: 3rem;
         font: $font;
         .project-card {
             margin: auto;
@@ -53,7 +54,8 @@ $card-hover: #e4ccba;
                 margin-bottom: 1rem;
                 overflow: hidden;
                 &:hover {
-                    transform: scale(0.95);
+                    transform: scale(0.99);
+                    filter: saturate(0.4)
                 }
                 img {
                     position: absolute;

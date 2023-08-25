@@ -8,7 +8,7 @@
   color: orange;
 }
 .Testimonals .header {
-  color: rgb(93, 92, 220);
+  color: #294f42;
   margin-block: 3rem;
   text-align: center;
   font: 1.2em "Fira Sans", sans-serif;
@@ -20,7 +20,7 @@
   margin-inline: 4rem;
 }
 .Testimonals .testimonals .card {
-  background-color: #fff;
+  background-color: #d3e3fc;
   margin: 1rem;
   padding: 2rem;
   border-radius: 1rem;

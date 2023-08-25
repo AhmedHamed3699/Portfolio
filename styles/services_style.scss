@@ -1,12 +1,11 @@
 $font: 1.2em "Fira Sans", sans-serif;
-$card-bg: rgb(175, 182, 255);
-$highlight: rgb(93, 92, 220);
+$card-bg: #40b3a2;
+$highlight: #123d6a;
 
 .Service {
     padding: 5rem;
     padding-bottom: 12rem;
     margin-top: 4rem;
-    border-radius: 1rem;
     .header {
         text-align: center;
         font: $font;
@@ -14,7 +13,7 @@ $highlight: rgb(93, 92, 220);
         font-size: 2rem;
         margin-top: 2rem;
         margin-bottom: 4rem;
-        color: $highlight;
+        color: #294f42;
     }
 
     .container {
@@ -27,6 +26,7 @@ $highlight: rgb(93, 92, 220);
         font: $font;
         .card {
             background-color: $card-bg;
+            color: #23332e;
             padding: 1rem;
             border-radius: 1rem;
             .card-icon {

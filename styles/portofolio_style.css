@@ -9,7 +9,7 @@
   margin: 1rem;
 }
 .Portfolio .intro-section .header {
-  color: rgb(93, 92, 220);
+  color: #294f42;
   font-size: 2rem;
   font-weight: bolder;
   padding: 0.8rem;
@@ -22,11 +22,11 @@
   border-radius: 0.4rem;
 }
 .Portfolio .intro-section button:hover {
-  background-color: #5d5cdc;
+  background-color: #106466;
   color: white;
 }
 .Portfolio .intro-section .active-btn {
-  background-color: #5d5cdc;
+  background-color: #106466;
   color: white;
 }
 .Portfolio .container {
@@ -35,6 +35,7 @@
   align-items: center;
   justify-items: center;
   padding-inline: 5rem !important;
+  margin-top: 3rem;
   font: 1.2em "Fira Sans", sans-serif;
 }
 .Portfolio .container .project-card {
@@ -50,7 +51,8 @@
   overflow: hidden;
 }
 .Portfolio .container .project-card .card-img:hover {
-  transform: scale(0.95);
+  transform: scale(0.99);
+  filter: saturate(0.4);
 }
 .Portfolio .container .project-card .card-img img {
   position: absolute;

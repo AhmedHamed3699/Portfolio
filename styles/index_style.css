@@ -1,5 +1,5 @@
 body {
-  background-color: #116466;
+  background-color: #77a6f6;
 }
 body::-webkit-scrollbar {
   width: 0.6em;
@@ -45,7 +45,7 @@ nav a {
   transition-delay: 0s;
 }
 nav a:hover {
-  color: rgb(217, 155, 82);
+  color: #106466;
 }
 nav ul {
   list-style-type: none;
@@ -61,7 +61,7 @@ nav ul li {
 }
 
 button {
-  background-color: rgb(254, 177, 47);
+  background-color: #123d6a;
   color: #fff;
   border: none;
   border-radius: 1.5rem;
